@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Multi-Delete",
+  "description": "Select and delete multiple ChatGPT chats at once with a clean, minimal UI.",
+  "version": "1.0.0",
+  "icons": {
+    "16": "icon/delete.png",
+    "48": "icon/delete.png",
+    "128": "icon/delete.png"
+  },
+  "permissions": ["scripting", "activeTab", "storage"],
+  "host_permissions": ["https://chat.openai.com/*", "https://chatgpt.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://chat.openai.com/*", "https://chatgpt.com/*"],
+      "js": ["contentScript.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
