@@ -14,6 +14,8 @@ A Chrome extension that enables bulk deletion of ChatGPT conversations with an i
 - **Dark mode support** - Automatically adapts to your theme
 - **Safe & private** - All operations happen locally in your browser
 
+![chatgpt-bulk-delete](https://github.com/user-attachments/assets/be59cb08-8793-4378-8046-deebcbeae522)
+
 ## 🚀 Installation
 
 1. **Clone this repository**:
