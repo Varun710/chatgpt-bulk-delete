@@ -8,7 +8,7 @@
     "48": "icon/delete.png",
     "128": "icon/delete.png"
   },
-  "permissions": ["scripting", "activeTab", "storage"],
+  "permissions": ["activeTab"],
   "host_permissions": ["https://chat.openai.com/*", "https://chatgpt.com/*"],
   "background": {
     "service_worker": "background.js"

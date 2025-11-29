@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Privacy Policy – ChatGPT Multi-Delete</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        max-width: 720px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          sans-serif;
+        line-height: 1.6;
+      }
+      h1,
+      h2 {
+        line-height: 1.25;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Privacy Policy – ChatGPT Multi-Delete</h1>
+    <p><strong>Last updated:</strong> November 28, 2025</p>
+
+    <h2>Overview</h2>
+    <p>
+      ChatGPT Multi-Delete is a browser extension that allows users to select
+      and delete multiple ChatGPT conversations at once directly within the
+      ChatGPT interface.
+    </p>
+
+    <h2>Data collection</h2>
+    <p>
+      This extension does <strong>not</strong> collect, store, or transmit any
+      personal data, ChatGPT conversation content, browsing history, or other
+      user information.
+    </p>
+    <ul>
+      <li>No account or identity information is collected.</li>
+      <li>No ChatGPT conversation text is collected or sent anywhere.</li>
+      <li>No analytics, tracking, or profiling is implemented.</li>
+    </ul>
+
+    <h2>How the extension works</h2>
+    <p>
+      All functionality runs locally in your browser. The extension modifies the
+      ChatGPT page’s DOM to add selection checkboxes and a delete toolbar, and
+      then triggers deletion actions that you explicitly initiate.
+    </p>
+    <p>
+      The extension only interacts with pages on
+      <code>chat.openai.com</code> and <code>chatgpt.com</code> (as permitted by
+      the host permissions you grant in your browser).
+    </p>
+
+    <h2>Permissions</h2>
+    <p>
+      The extension requests the minimum permissions necessary for its single
+      purpose: allowing you to select and delete multiple ChatGPT conversations
+      at once.
+    </p>
+    <ul>
+      <li>
+        <strong>Host permissions</strong> for <code>chat.openai.com</code> and
+        <code>chatgpt.com</code> are used only so the extension can inject its
+        UI elements (checkboxes, toolbar) and perform user-initiated deletions
+        within the ChatGPT interface.
+      </li>
+      <!-- If you keep activeTab, leave this; if you remove it from manifest, delete this bullet. -->
+      <li>
+        <strong>activeTab (if present)</strong> is used only to interact with
+        the currently active ChatGPT tab when you explicitly use the extension.
+        No tab URLs or browsing history are stored or transmitted.
+      </li>
+    </ul>
+
+    <h2>Third-party sharing</h2>
+    <p>
+      The extension does not sell, share, or transfer any data to third parties.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      If you have any questions about this privacy policy or the extension, you
+      can contact:
+      <a href="mailto:youremail@example.com">youremail@example.com</a>
+      <!-- Replace with your actual contact email or page -->
+    </p>
+  </body>
+</html>
